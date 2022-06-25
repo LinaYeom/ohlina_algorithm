@@ -2,7 +2,7 @@ A, B = map(int,input().split())
 C = int(input())
 D = None
 
-if (0<=C<1001):
+if (0<=C<1000):
     D = C//60
     if (0<D):
         A += D
