@@ -9,7 +9,7 @@ public class Main {
 		while (true) {
 			a = sc.nextInt();
 			b = sc.nextInt();
-			if (a != 0 || b != 0) {
+			if (a != 0 && b != 0) {
 				System.out.println(a + b);
 			} else
 				break;
